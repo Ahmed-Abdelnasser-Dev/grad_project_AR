@@ -11,7 +11,6 @@ class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromRGBO(11, 12, 16, 1),
       bottomNavigationBar: Stack(
         children: [
           Container(
