@@ -19,7 +19,7 @@ class Homepage extends StatelessWidget {
             height: 95,
             decoration: BoxDecoration(
               color: Color.fromRGBO(11, 12, 16, 1),
-              borderRadius: BorderRadius.circular(20),
+              borderRadius: BorderRadius.only(topLeft: Radius.circular(25) , topRight:Radius.circular(25)),
               boxShadow: [
                 BoxShadow(
                   color: Colors.white.withOpacity(0.3),
