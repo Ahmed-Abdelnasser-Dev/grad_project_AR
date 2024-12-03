@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Settings extends StatelessWidget {
@@ -7,7 +6,7 @@ class Settings extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  const Scaffold(
-      backgroundColor: const Color.fromRGBO(11, 12, 16, 1),
+      backgroundColor: Color.fromRGBO(11, 12, 16, 1),
       body: Center(
         child: Text("Settings" , style: TextStyle(color: Colors.white),),
       ),

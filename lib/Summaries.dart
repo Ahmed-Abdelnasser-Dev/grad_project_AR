@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class Summaries extends StatelessWidget {
@@ -7,10 +6,10 @@ class Summaries extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  const Scaffold(
-      backgroundColor: const Color.fromRGBO(11, 12, 16, 1),
+      backgroundColor: Color.fromRGBO(11, 12, 16, 1),
       body: Center(
         child: Text("Summaries" , style: TextStyle(color: Colors.white),),
       ),
-    );;
+    );
   }
 }
